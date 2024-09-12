@@ -1,0 +1,51 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: pink;
+}
+
+h1 {
+    color: #333;
+}
+
+/* Container for all movies */
+#movies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin: 20px;
+}
+
+/* Individual movie container */
+.movie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+
+/* Hourglass shape for images */
+img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    
+}
+
+/* Styling for the movie title text */
+p {
+    font-size: 1.1em;
+    color: #555;
+    margin-top: 10px;
+}
+
+.link:visited{
+    color: pink;
+}
+
+.link:hover{
+    color: purple;
+}
+
